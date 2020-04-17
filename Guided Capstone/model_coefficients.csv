@@ -1,0 +1,23 @@
+,feature,coefficient
+0,AdultWeekday,20.0804
+1,SkiableTerrain_ac,2.64144
+2,NightSkiing_ac,1.55972
+3,daysOpenLastYear,1.42716
+4,averageSnowfall,1.3422
+5,quad,1.30095
+6,vertical_drop,1.20837
+7,Runs,1.07312
+8,cluster,1.02395
+9,surface,0.96088
+10,fastQuads,0.89921
+11,triple,0.80241
+12,projectedDaysOpen,0.66329
+13,total_chairs,0.59612
+14,Snow Making_ac,0.32163
+15,yearsOpen,0.31042
+16,fastSixes,0.28394
+17,LongestRun_mi,0.20073
+18,double,0.09003
+19,TerrainParks,0.05722
+20,trams,0.05327
+21,fastEight,0.0
