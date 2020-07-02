@@ -1,0 +1,48 @@
+classification report:,
+precision,0.99
+recall,0.99
+f1-score,0.99
+accuracy,0.99
+macro avg,0.99
+weighted avg,0.99
+AUC,0.9996
+,
+confusion matrix:,
+5272,32
+59,4413
+,
+hyperparameters:,
+"C=0.01, class_weight=None, dual=False, fit_intercept=True, intercept_scaling=1, l1_ratio=None, max_iter=200, multi_class='auto', n_jobs=None, penalty='l2', random_state=42, solver='lbfgs', tol=0.0001, verbose=0, warm_start=False",
+,
+top 10 feature coefficients:,
+feature,coefficient
+upper_title_wc,1.255792
+title_wc,1.007022
+text_ngram_image,0.683703
+title_ngram_video,0.520196
+title_ngram_breaking,0.375867
+exclam_title,0.368532
+text_ngram_gop,0.365698
+text_ngram_even,0.258577
+text_ngram_president trump,0.230691
+,
+features:,
+feature,description
+text_wc,count of the words in the the article 
+ title_wc,count of the words in the title
+av_word_len_text,average word length of words in the article
+ av_word_len_title,average word length of words in the title
+ upper_text_wc,count of uppercase words in the article
+ upper_title_wc,count of the uppercase words in the title
+ numerics_text,count of numbers in the the article
+ numerics_title,count of numbers in the title
+ exclam_text,count of exclamation marks in the article
+ exclam_title,count of exclamation marks in the title
+ qmark_text,count of question marks in the article
+ qmark_title,count of exclamation marks in the title
+ at_sign,count of @ signs in the article
+stop_p,count of stop words in the article
+ weekend,True if the article was published on a weekend
+ Sep_Dec,True if the article was published from Sep - Dec
+title_ngrams,tfidf vectorization of the top 200 unigrams and bigrams in the titles 
+text_ngrams,tfidf vectorization of the top 800 unigrams and bigrams in the articles
